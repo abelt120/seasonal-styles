@@ -60,6 +60,9 @@ $("document").ready(function(){
 
             default:
                 alert("No case matches");
+                $("#logo").attr("src","images/four-seasons.gif");
+                $("#wear").attr("src","images/300x400.png");
+
         }
     });
 });
